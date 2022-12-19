@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+aside 
+{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: gray;
+    font-size: 3rem;
+}
+
+ul
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+}
+
+i 
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
